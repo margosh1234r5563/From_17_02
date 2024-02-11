@@ -1,2 +1,2 @@
-#Task 5
-print('Привет, Python!','Hello, Python!','Bonjour Python!','Hej, Python!','Hola, Python!',sep='\n')
+# Task 5
+print('Привет, Python!', 'Hello, Python!', 'Bonjour Python!', 'Hej, Python!', 'Hola, Python!', sep='\n')
