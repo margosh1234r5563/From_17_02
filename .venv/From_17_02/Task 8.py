@@ -1,11 +1,11 @@
-#Task 8
+# Task 8
 print('Введите ваш Login')
-login=input()
-print('Login:',login)
+login = input()
+print('Login:', login)
 print('Введите старый пароль')
-old_password=input()
-print('Password:',old_password)
+old_password = input()
+print('Password:', old_password)
 print('Введите новый пароль')
-new_password=input()
-print('New password:',new_password)
+new_password = input()
+print('New password:', new_password)
 print('User durov has changed the password to querty')
