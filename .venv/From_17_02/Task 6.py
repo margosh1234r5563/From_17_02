@@ -1,4 +1,3 @@
 # Task 6
-print('Как Вас зовут?')
-name = input()
+name = input('Как Вас зовут? ')
 print('Здравствуйте,', name)
