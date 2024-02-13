@@ -1,7 +1,5 @@
 # Task 7
-print('Как Вас зовут?')
-name = input()
+name = input('Как Вас зовут? ')
 print('Здравствуйте,', name)
-print('Что Вам нравится?')
-hobby = input()
+hobby = input('Что Вам нравится? ')
 print('Отлично!', hobby, '- хорошее увлечение.')
