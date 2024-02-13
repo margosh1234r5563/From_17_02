@@ -1,4 +1,3 @@
 # Task 11
-print('Как Вас зовут?')
-user_name = input()
+user_name = input('Как Вас зовут? ')
 print('Привет, ', user_name, '!', sep='')
