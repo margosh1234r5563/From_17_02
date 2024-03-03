@@ -1,9 +1,12 @@
-k_result, a_result, s_result = map(int, input().split())
-if k_result > a_result and k_result > s_result:
-    print(k_result)
-elif a_result > k_result and a_result > s_result:
-    print(a_result)
-elif s_result > a_result and s_result > k_result:
-    print(s_result)
+name = input('Здравствуйте! Как Вас зовут? ')
+print(f'Очень приятно, {name}! Меня зовут Марк.')
+old = int(input('Сколько Вам лет? '))
+if old < 78:
+    print(f'Да, {name}, я старше Вас на {78 - old} лет.')
 else:
-    print('Победила дружба')
+    print(f'Да, {name}, Вы старше меня на {old - 78} лет.')
+interest = input('Вам нравится программировать? ')
+if interest == 'да':
+    print('Превосходно! Уверен, у Вас получится написать множество полезных и хороших программ.')
+elif interest == 'нет':
+    print('Жаль. Я думал, Вы сможете написать интересную программу для меня.')

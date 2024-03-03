@@ -1,6 +1,9 @@
-n = int(input())
-k = int(input())
-if n < k:
-    print(n)
+a, b, c = map(str, input().split())
+a = int(a)
+c = int(c)
+if a > c:
+    print('Первая команда выиграла')
+elif c < a:
+    print('Вторая команда выиграла')
 else:
-    print(k)
+    print('0')
