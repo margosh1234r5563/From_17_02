@@ -1,4 +1,6 @@
-imt = float(input())
+high = float(input())
+weight = float(input())
+imt = weight / (high / 100) ** 2
 if imt < 16:
     print('выраженный дефицит массы тела')
 elif imt >= 16 and imt <= 18.49:
