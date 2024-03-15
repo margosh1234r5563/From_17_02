@@ -1,9 +1,9 @@
-a, b, c = map(str, input().split())
-a = int(a)
-c = int(c)
+b = input()
+a = b[0]
+c = b[2]
 if a > c:
-    print('Первая команда выиграла')
-elif c < a:
-    print('Вторая команда выиграла')
+    print('1')
+elif c > a:
+    print('2')
 else:
     print('0')
