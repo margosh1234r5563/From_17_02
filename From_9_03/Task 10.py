@@ -1,5 +1,5 @@
 amount = int(input())
 if amount % 2 == 0:
-    print('могут')
+    print('да')
 else:
-    print('не могут')
+    print('нет')
