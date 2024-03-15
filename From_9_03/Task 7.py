@@ -6,4 +6,4 @@ elif a_result > k_result and a_result > s_result:
 elif s_result > a_result and s_result > k_result:
     print(s_result)
 else:
-    print('Победила дружба')
+    print(a_result)
